@@ -1,0 +1,19 @@
+{
+  "name": "learn_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuuki-katsuta/Learn_Node.js.git"
+  },
+  "author": "yuuki-katsuta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuuki-katsuta/Learn_Node.js/issues"
+  },
+  "homepage": "https://github.com/yuuki-katsuta/Learn_Node.js#readme"
+}
