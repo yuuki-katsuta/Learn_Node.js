@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 
+//ミドルウェアを利用(アプリケーションレベルで利用)
+app.use(require('./lib/logger'));
+
 // GETメソッドでルートにアクセスしたときの処理
 app.get('/', (req, res) => {
   res.status(200).send('hello world.');
